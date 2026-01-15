@@ -1,4 +1,4 @@
-A virtual environment is a self-contained, isolated directory for a project that includes its own Python interpreter and libraries. 
+**A virtual environment is a self-contained, isolated directory for a project that includes its own Python interpreter and libraries. 
 
 ## Python venv
 ### Step 1: Create the Virtual Environment
@@ -14,6 +14,19 @@ A virtual environment is a self-contained, isolated directory for a project that
 ``` (.venv) $ deactivate ```
 ### pyenv
 The most widely recommended tool for managing multiple Python versions on a single system.
+
+## uv
+An extremely fast Python package installer and resolver, written in Rust.
+### Install uv
+```pip install uv```
+### Create a virtual environment
+```uv venv```
+### Install a package
+```uv pip install <package_name>```
+### Lock dependencies
+```uv pip compile requirements.in -o requirements.txt```
+### Sync environment
+```uv pip sync requirements.txt```
 
 ## Conda
 ### 1. Create a new environment: 
@@ -72,3 +85,4 @@ services:
 
 
 
+**

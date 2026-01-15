@@ -1,13 +1,13 @@
 ## pip
-#### Install a package
+### Install a package
 ```pip install <package_name>```
-#### Upgrade a package
+### Upgrade a package
 ```pip install --upgrade <package_name>```
-#### Uninstall a package
+### Uninstall a package
 ```pip uninstall <package_name>```
-#### List installed packages
+### List installed packages
 ```pip list```
-#### Show installed package's information
+### Show installed package's information
 ```pip show <package_name>```
 
 
